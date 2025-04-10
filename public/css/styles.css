@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: blue;
+  text-shadow: 1px 1px 12px red;
+}
+
+p#parrafo1 {
+  color: red;
+  font-style: italic;
+}
+p {
+  color: darkviolet;
+}
+
+div p {
+  color: darkolivegreen;
+}
+a {
+  color: darkred;
+}
+a:visited{
+  color: red;
+}
+a:hover{
+  color: black;
+}
+a:active{
+  color: blue;
+}
+ul{
+  list-style-position: inside;
+}
+@keyframes perro {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+.perrito {
+  animation: perro 10s 1;
+}
+.fondo{ 
+  background: url('../img/perro3.png') repeat-x left bottom;
+  /* height: 300px; */
+  margin: 15px;
+  padding: 30px;
+  border: solid red 2px;
+}
+table{
+  min-width: 300px;
+  width: 25%;
+  border-collapse: collapse;
+}
+th,td{
+  border: solid 1px black;
+  padding: 5px;
+}
+th{
+  background-color: tomato;
+  color: white;
+  text-align: left;
+}
+tr:nth-child(even){
+  background-color: aqua;
+}
+tr:hover{
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+.position{
+  background-color: chocolate;
+  position: relative;
+}
+.elemento{
+  position: absolute;
+  left: 300px;
+  bottom: 2px
+}
+.container{
+  height: 200px;
+
+}
+.left{
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+.right{
+  float: right;
+}
