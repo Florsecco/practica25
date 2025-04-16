@@ -3,9 +3,10 @@
 }
 
 body {
-  background-color: pink;
+  background-color:#f5d0f9;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  margin: 0;
 }
 
 h1 {
@@ -53,53 +54,7 @@ ul{
 .perrito {
   animation: perro 10s 1;
 }
-.fondo{ 
-  background: url('../img/perro3.png') repeat-x left bottom;
-  /* height: 300px; */
-  margin: 15px;
-  padding: 30px;
-  border: solid red 2px;
-}
-table{
-  min-width: 300px;
-  width: 25%;
-  border-collapse: collapse;
-}
-th,td{
-  border: solid 1px black;
-  padding: 5px;
-}
-th{
-  background-color: tomato;
-  color: white;
-  text-align: left;
-}
-tr:nth-child(even){
-  background-color: aqua;
-}
-tr:hover{
-  background-color: #aaa;
-  cursor: pointer;
-}
 
-.position{
-  background-color: chocolate;
-  position: relative;
-}
-.elemento{
-  position: absolute;
-  left: 300px;
-  bottom: 2px
-}
-.container{
-  height: 200px;
 
-}
-.left{
-  float: left;
-  width: 200px;
-  height: 200px;
-}
-.right{
-  float: right;
-}
+
+
